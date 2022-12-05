@@ -1,0 +1,24 @@
+
+/* Skip the border around the table by leaving out table from the css selector: */
+table, th, td {
+    /* Add a Border */
+    border: 1px solid black;
+
+    /* Style Table Borders */
+    background-color: #96D4D4;
+
+    /* Collapsed Table Borders */
+    border-collapse: collapse;
+
+    /* Round Table Borders */
+    border-radius: 10px;
+
+    /* Dotted Table Borders */
+    /* The following values are allowed: dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden */
+    border-style: dashed;
+  }
+
+  /* Border Color */
+  th, td {
+    border-color: #883309;
+  }

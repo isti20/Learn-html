@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Colgroup</title>
+    <link rel="stylesheet" href="table-colgroup.css">
+</head>
+<body>
+    <!-- HTML Table Colgroup
+    If you want to style the two first columns of a table, use the <colgroup> and <col> elements. -->
+    <!-- Note: The <colgroup> tag must be a child of a <table> element and should be placed before any other table elements, 
+    like <thead>, <tr>, <td> etc., but after the <caption> element, if present. -->
+    <table>
+        <colgroup>
+          <col span="2" style="background-color: #D6EEEE">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+          </tr>
+          <tr>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+          </tr>
+    </table>
+
+    <hr>
+
+    <!-- Multiple Col Elements
+    If you want to style more columns with different styles, use more <col> elements inside the <colgroup>: -->
+    <table>
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+            <col span="3" style="background-color: pink">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+          </tr>
+          <tr>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+          </tr>
+    </table>
+
+    <hr>
+
+    <!-- Empty Colgroups
+    If you want to style columns in the middle of a table, 
+    insert a "empty" <col> element (with no styles) for the columns before: -->
+    <table>
+        <colgroup>
+            <col span="3">
+            <col span="2" style="background-color: pink">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+          </tr>
+          <tr>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+          </tr>
+    </table>
+
+    <hr>
+
+    <!-- Hide Columns
+    You can hide columns with the visibility: collapse property: -->
+    <table>
+        <colgroup>
+            <col span="2">
+            <col span="3" style="visibility: collapse">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+          </tr>
+          <tr>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+          </tr>
+          <tr>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+          </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML <picture> Element</title>
+</head>
+<body>
+    <!-- The HTML <picture> Element
+    The <picture> element contains one or more <source> elements, 
+    each referring to different images through the srcset attribute. 
+    This way the browser can choose the image that best fits the current view and/or device.
+
+    Each <source> element has a media attribute that defines when the image is the most suitable. -->
+    <!-- Show different images for different screen sizes: -->
+    <picture>
+        <source media="(min-width: 650px)" srcset="beach.jpg">
+        <source media="(min-width: 465px)" srcset="stars.jpg">
+        <img src="sky.jpg">
+    </picture>
+
+    <!-- The browser will use the first image format it recognizes: -->
+    <!-- <picture>
+        <source srcset="sky.jpg">
+        <source srcset="beach.jpg">
+        <img src="stars.jpg" alt="starts" style="width:auto;">
+    </picture> -->
+</body>
+</html>

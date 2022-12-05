@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Image Maps</title>
+</head>
+<body>
+    <!-- Image Maps
+    The HTML <map> tag defines an image map. An image map is an image with clickable areas. 
+    The areas are defined with one or more <area> tags.
+
+    The Areas
+    A clickable area is defined using an <area> element.
+    You must define the shape of the clickable area, and you can choose one of these values:
+    - rect - defines a rectangular region
+    - circle - defines a circular region
+    - poly - defines a polygonal region
+    - default - defines the entire region
+
+    You must also define some coordinates to be able to place the clickable area onto the image.  -->
+
+    <img src="icon-facebook.jpg" width="400" alt="Icon Facebook" usemap="#workmap">
+    <map name="workmap">
+        <area shape="default" coords="34,44,270,350" alt="Facebook" href="https://web.facebook.com/">
+    </map>
+</body>
+</html>

@@ -1,0 +1,35 @@
+table, th, td {
+    /* Add a Border */
+    /* border: 1px solid black; */
+
+    /* Collapsed Table Borders */
+    border-collapse: collapse;
+}
+
+/* Table - Zebra Stripes */
+/* tr:nth-child(even) {
+    background-color: #D6EEEE;
+} */
+
+/* Table - Vertical Zebra Stripes */
+/* td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+} */
+
+/* Combine Vertical and Horizontal Zebra Stripes */
+/* tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  } */
+
+/* Horizontal Dividers */
+tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Hoverable Table
+  Use the :hover selector on tr to highlight table rows on mouse over: */
+  tr:hover {background-color: #D6EEEE;}
