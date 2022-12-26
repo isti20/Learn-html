@@ -1,8 +1,7 @@
 {
-    "editor.fontFamily": "'monospace', 'monospace', monospace",
-    "editor.fontSize": 14,
     "window.zoomLevel": 1,
-    "terminal.integrated.fontSize": 14,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Default Dark+"
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
+    "workbench.colorTheme": "Noctis Minimus",
+    "workbench.iconTheme": "vscode-icons"
 }
